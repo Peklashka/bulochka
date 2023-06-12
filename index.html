@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Булошная</title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-3.7.0.min.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <div class="top">
+					<div class="logo"></div>
+				</div>
+                <nav class="topmenu">
+                    <a class="home" href="index.html"><span>Главная</span></a>
+                    <a class="catalog current" href="catalog.html"><span>Каталог</span></a>
+                    <a class="order" href="order.html"><span>Корзина</span></a>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+			
+			<section class="action">
+                <div class="actiontext">До обновления витрины осталось:
+                    <div class="actiontimer" data-actionend="2023-06-19T12:00:00">
+                    </div>
+                </div>
+            </section>
+		
+			<div class="text">
+				<p class="about"> Купи булочку - порадуй пузико</p>
+            </div>
+            
+            <section class="slider" id="slider1" data-time="3000">
+                <div class="sliderwindow">
+                    <img class="slide" src="images/baget01.jpg" alt="first image">
+					<img class="slide" src="images/baget02.jpg" alt="third image">
+                    <img class="slide" src="images/croissant01.jpg" alt="second image">                    
+                    <img class="slide" src="images/croissant02.jpg" alt="fourth image">
+                </div>
+                <div class="slidercontrols">
+                    <button type="button" class="prev">&#xe905;</button>
+                    <button type="button" class="next">&#xe906;</button>
+                    <div class="pointers">
+                    </div>
+                </div>
+            </section>
+            <section class="content"></section>
+        </main>
+        
+        <footer>
+            <div class="container">
+                <div class="top"></div>
+                <nav class="bottommenu">
+                    <a class="home current" href="index.html"><span>Главная</span></a>
+                    <a class="catalog" href="catalog.html"><span>Каталог</span></a>
+                    <a class="order" href="order.html"><span>Корзина</span></a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
